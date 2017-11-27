@@ -1,0 +1,22 @@
+Client REST des d'Android mitjançant retrofit
+
+adreça de base:
+
+http://host_ip:8080/myApp/
+
+API:
+
+Llista tots els tracks
+/json/getAll
+
+Demana el track identificat amb id
+/json/got/<id>
+
+Demana l´últim track
+/json/get
+
+Insereix un track
+/post
+
+Esborra un track identificat amb id
+/del/<id>
